@@ -1,0 +1,36 @@
+.title-comp {
+  @apply text-xl text-center capitalize rounded-2xl
+    tracking-wide text-gray-700 font-bold font-serif pb-3 mb-3;
+}
+
+.lbl-comp {
+  @apply  text-gray-500 pl-2;
+}
+
+.error-comp {
+  @apply text-red-700 transition duration-75 ease-in-out 
+    transform hover:translate-x-1;
+}
+
+.input-comp {
+  @apply p-2 text-gray-900 rounded-lg;
+}
+
+.div-input {
+  @apply m-1 px-8 py-2 flex flex-col;
+}
+
+.div-submit {
+  @apply flex justify-center bg-transparent;
+}
+
+.btn-submit {
+  @apply m-4 px-4 py-3 w-60 h-12 bg-green-700 text-white 
+  font-bold rounded-full font-mono text-2xl text-center;
+}
+
+.form-container {
+  @apply container p-8 m-4 md:flex flex-col 
+    justify-center max-w-md mx-auto bg-green-100 
+    rounded-2xl shadow-lg md:max-w-2xl  font-mono;
+}
